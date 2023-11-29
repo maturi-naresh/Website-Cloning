@@ -1,0 +1,285 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    background-color: white;
+    padding-bottom: 2px;
+    margin-top:-10px;
+    width:100%;
+}
+.nav-right ul{
+    list-style: none;
+    display: flex;
+    justify-content: row;
+    padding-right: 60px;
+}
+.fa-language, .fa-display, .fa-mastodon, .fa-twitter, .fa-discord, .fa-github, .guide, .config, .plugins{
+    padding-left: 20px;
+}
+.fa-language, .fa-display, .fa-mastodon, .fa-twitter, .fa-discord, .fa-github{
+    font-size: 18px;
+    color: #6D6D72;
+}
+.fa-display:hover, .fa-mastodon:hover, .fa-twitter:hover, .fa-discord:hover, .fa-github:hover{
+    color: black;
+    opacity: 0.8;
+}
+.Ctrl{
+    border: 2px solid white;
+}
+.search-logo{
+    background-color: whitesmoke;
+    color: #6B6B70;
+    padding: 8px 15px;
+    border-radius: 7px;
+    height: 24px;
+    margin-top: 10px;
+    border-radius: 1px solid #6B6B70;
+    border: 1px solid whitesmoke;
+}
+.search-logo:hover{
+    border: 1px solid blue;
+    opacity: 0.8;
+}
+.nav-left,.left{
+    display: flex;
+    flex-direction: row;
+}
+.search-logo{
+    margin-left: 27px;
+}
+.logo{
+    padding-top: 13px;
+}
+.Vite{
+    margin-left: 5px;
+    font-size: large;
+}
+.nav-left{
+    margin-left: 50px;
+}
+.guide, .config, .plugins, .resources, .version{
+    color: #3C3C43;
+    font-size: 16.3px;
+}
+.img{
+    /* padding-top: 30px; */
+    /* padding-right: 50px; */
+    /* border: 1px solid white; */
+    margin-top: 60px;
+    margin-right: 70px;
+
+}
+.config:hover, .guide:hover, .plugins:hover{
+    color: #646CFF;
+    opacity: 0.8;
+}
+.resources:hover, .version:hover, .fa-language:hover{
+    color: #6D6D72;
+    opacity: 0.8;
+}
+.fa-angle-down{
+    font-size: x-small;
+}
+.started, .viteconf{
+    background-color: #646CFF;
+    border-radius: 30px;
+    padding: 8px 16px;
+    color: white;  
+}
+.viteconf{
+    margin-left: 10px;
+}
+.three, .two{
+    border-radius: 30px;
+    border: 2px solid #C0C0C2;
+    background-color: #F6F6F7;
+    padding: 8px 16px;
+    margin-left: 10px;
+}
+.two:hover, .three:hover, .started:hover, .viteconf:hover{
+    opacity: 0.7;
+}
+.stackblitz-box:hover, .labs-box:hover, .astro-box:hover, .storyblok-box:hover, .tailwind-box:hover, .vuejobs-box:hover, .riots-box:hover, .perfect-box:hover, .symbol-box:hover, .mux-box:hover{
+    background-color: #C0C0C1;
+}
+.page{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 40px;
+}
+.main{
+    margin-top: 70px;
+    margin-left: 50px;
+}
+h1{
+    font-size: 60px;
+    /* margin-left: 170px; */
+    /* padding-top: 0px; */
+}
+.GC{
+    font-size: x-large;
+    margin-top: 0px;
+    color: #6D6D72;
+    line-height: 34px;
+    
+    /* margin-left: 17px; */
+    /* padding-bottom: 30px; */
+    
+}
+.space{
+    margin-top: 80px;
+    color: #916CFF;
+    line-height: 2px;
+}
+.GWV{
+    display: flex;
+    justify-content: row;
+    /* margin-left: 12px; */
+}
+.first-box, .second-box, .third-box{
+    background-color: whitesmoke;
+    width: 24%;
+    padding: 19px 32px;
+    border-radius: 20px;
+    margin-left: 15px;
+}
+.bulb, .thunder, .screw, .box, .rod, .key{
+    font-size:large;
+    background-color: #E3E3E5;
+    width: 4%;
+    padding: 14px 18px 14px 17px;
+    border-radius: 7px;
+}
+.ESM{
+    font-size: 16px;
+    /* padding-left: 2px; */
+    color: #6D6D72;
+}
+.NG{
+    line-height: 60px;
+}
+.first-row, .second-row{
+    display: flex;
+    flex-direction: row;
+    margin-left: 125px;
+}
+.first-row{
+    margin-bottom: 15px;
+}
+h3{
+    color: #3C3C43;
+}
+.bulb{
+    color: #FCD53F;
+}
+.thunder{
+    color: #FF822D;
+}
+.screw{
+    color: #7D4533;
+}
+.box{
+    color: #FFCE7C;
+}
+.rod{
+    color: #B0A6BA;
+}
+.key{
+    color: #F9C23C;
+}
+.sponsor-two{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 110px;
+    color: #6D6D72;
+}
+.SEY:hover:hover, .SV:hover{
+    border: 1px solid red;
+    color: red;
+}
+.SEY, .SV{
+    background-color: #FFFFFF;
+    border-radius: 30px;
+    border: 1.5px solid #6D6D72;
+    padding: 10px 20px;
+    margin-left: 15px;
+}
+.footer-up, .footer-down, .stack-lab-astro, .six-one, .six-two{
+    display: flex;
+    justify-content: center;
+}
+.footer{
+    margin-top: 35px;
+    color: #6D6D72;
+}
+.main-box{
+    margin-top: 40px;
+    padding-bottom: 90px;
+}
+.heart{
+    display: flex;
+    justify-content: center;
+    font-size: x-large;
+    color: #BFBFC1;
+    margin-left: 6px;
+}
+.wonder{
+    font-size: large;
+    display: flex;
+    justify-content: center;
+    color: #6D6D72;
+}
+.heart-para{
+    padding-top: 70px;
+    margin-bottom: 40px;
+}
+.container-two{
+    margin-left: 144px;
+}
+.sponsor, .platinum, .gold-sponsors{
+    font-size: large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 1136px;
+    background-color: #F6F6F7;
+    margin-top: 4px;
+    color: #6D6D72;
+}
+.stackblitz-box, .labs-box, .astro-box{
+    height: 190px;
+    width: 376px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F6F6F7;
+    margin-right: 4px;
+    background-color: #F6F6F7;
+}
+.SLA, .top-row, .bottom-row{
+    display: flex;
+    justify-content: row;
+    margin-top: 4px;
+}
+.storyblok-box{
+    height: 190px;
+    width: 1136px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F6F6F7;
+    margin-top: 4px;
+}
+.tailwind-box, .vuejobs-box, .riots-box, .perfect-box, .symbol-box, .mux-box, .blank{
+    height: 117px;
+    width: 224px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F6F6F7;
+    margin-right: 4px;
+    background-color: #F6F6F7;
+}
